@@ -1,0 +1,131 @@
+var obj = {
+    baseUrl :'/echod_manager/V3/assets/js',//配置根目录
+    ctlBaseUrl : '/echod_manager/rest',//配置controller的baseurl
+    reSourceBaseUrl : '/echod_manager/V3/assets/images/',//配置资源文件根目录
+   // urlArgs : 'v=' + (new Date().getTime()), //清除缓存
+    paths:{
+        'css' : 'plugins/requireJS/css',
+        'jquery' : 'plugins/jquery/jQuery_3.3.1',
+        'bootstrap' : 'plugins/bootstrap/js/bootstrap',
+        'dataTableSemanticui' : 'plugins/datatables/jquery.dataTables',
+        'dataTable': 'plugins/datatables/plugin/dataTables.semanticui',
+        'dataTableButton' : 'plugins/datatables/plugin/dataTables.button',
+        'jszip' : 'plugins/datatables/plugin/jszip',
+        'pdfMake' : 'plugins/datatables/plugin/pdfmake',
+        'vfs' : 'plugins/datatables/plugin/vfs_fonts',
+        'h5Button' : 'plugins/datatables/plugin/buttons.html5',
+        'semanticui': 'plugins/datatables/plugin/semantic',
+        'select2CN' : 'plugins/select2/js/select2.full',
+        'select2' : 'plugins/select2/js/i18n/zh-CN',
+        'niceScroll' : 'plugins/nicescroll/jquery.nicescroll',
+        'toastr' : 'plugins/toastr/toastr.min',
+        'util' : 'util/util',
+        'ztree' : 'plugins/ztree/jquery.ztree.all',
+        'common' : 'common/common' ,
+        'dateTimePicker' : 'plugins/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN',
+        'menu' : 'util/menu',
+        'tweenMax' : 'plugins/tweenmax/TweenMax.min',
+        'createTree' : 'plugins/searchtree/createTree',
+        'moment': 'plugins/daterangepicker/moment',
+        'daterangepicker': 'plugins/daterangepicker/daterangepicker',
+        'select2Tree' : 'plugins/select2/js/select2tree'
+    },
+    waitSeconds: 20,
+    map:{
+        '*' : {
+            'css' : 'plugins/requirejs/css',
+        }
+    },
+    shim:{
+        'bootstrap' : {
+            deps : [
+                'jquery',
+                'css!plugins/bootstrap/css/bootstrap'
+            ]
+        },
+        'dataTable' : {
+            deps : [
+                'jquery',
+                //'dataTableSemanticui',与bootstrap原生方法重复
+                //'semanticui',
+                'css!plugins/datatables/css/semantic',
+                'css!plugins/datatables/css/dataTables.semanticui'
+            ]
+        },
+        'dataTableButton' : {
+            deps : [
+                'css!plugins/datatables/css/buttons.dataTables.min'
+            ]
+        },
+        'select2Tree' : {
+          deps : [
+              'jquery',
+              'select2',
+              'css!plugins/select2/css/select2.min'
+          ]
+        },
+        'select2' : {
+            deps : [
+                'jquery',
+                'select2CN',
+                'css!plugins/select2/css/select2.min'
+            ]
+        },
+        'niceScroll' : {
+            deps : [
+                'jquery'
+            ]
+        },
+        'toastr' : {
+            deps : [
+                'jquery',
+                'css!plugins/bootstrap/css/bootstrap',
+                'css!plugins/toastr/toastr.min'
+            ] 
+        },
+        'ztree' : {
+            deps : [
+                'jquery',
+                'css!plugins/ztree/css/metroStyle/metroStyle'
+                //'css!ztree/css/zTreeStyle/zTreeStyle'
+            ]
+        },
+        'dateTimePicker' : {
+            deps : [
+                'css!plugins/datetimepicker/css/bootstrap-datetimepicker',
+                'jquery',
+                'plugins/datetimepicker/js/bootstrap-datetimepicker'
+            ]
+        },
+        'menu' : {
+            deps : [
+                'jquery',
+                'tweenMax',
+                'bootstrap'
+            ]
+        },
+        'createTree' : {
+            deps : [
+                'jquery',
+                'tweenMax',
+                'menu',
+                'css!/echod_manager/V3/assets/js/plugins/searchtree/css/jquery-ui-1.10.3.custom.min',
+                'css!/echod_manager/V3/assets/css/font/entypo/css/entypo',
+                'css!/echod_manager/V3/assets/js/plugins/bootstrap/css/bootstrap',
+                'css!/echod_manager/V3/assets/js/plugins/searchtree/css/neon-core',
+                'css!/echod_manager/V3/assets/js/plugins/searchtree/css/neon-theme',
+                'css!/echod_manager/V3/assets/js/plugins/searchtree/css/neon-forms'
+            ]  
+        },
+        'daterangepicker' : {
+            deps : [
+                'jquery',
+                'moment',
+                'css!/echod_manager/V3/assets/js/plugins/bootstrap/css/bootstrap',
+                'css!/echod_manager/V3/assets/js/plugins/daterangepicker/daterangepicker'
+            ]
+        },
+    }
+} ;
+
+require.config(obj);

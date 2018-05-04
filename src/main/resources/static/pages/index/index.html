@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="content-language" content="zh-CN" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="http://www.yoyosys.com/favicon.ico" type="image/x-icon">
+    <title>主页</title>
+    <link rel="stylesheet" href="../../assets/css/font/entypo/css/entypo.css" type="text/css" />
+    <link rel="stylesheet" href="../../pages/index/css/index.css" />
+    <script src="../../assets/js/plugins/requirejs/require.js"></script>
+    <script src="../../assets/js/main.js"></script>
+</head>
+
+<body class="page-body page-left">
+<div class="thisIsLoading"></div>
+<div class="page-container horizontal-menu">
+    <header class="navbar navbar-fixed-top" style="display: none;">
+
+        <div class="navbar-inner" id="modual">
+            <!-- logo -->
+            <div class="navbar-brand">
+                <a href="javascript:void(0);">
+                    <!--<img src="../../assets/images/logo.png" width="88" alt>-->
+                    <img src="http://www.yoyosys.com/wp-content/themes/yoyosys/images/index/e.png" width="120" height="40" style="margin-top:-1em;">
+                </a>
+            </div>
+
+            <!-- 系统菜单组件 -->
+            <ul class="nav navbar-right pull-right">
+                <li class="dropdown skinContainer">
+                </li>
+                <!-- user -->
+                <li class="sep"></li>
+                <li>
+                    <a href="#">
+                        <i class="entypo-user user" style="padding-left:5px; font-style:normal;"></i>
+                    </a>
+                </li>
+                <!-- raw links -->
+                <li class="sep"></li>
+
+                <li>
+                    <a href="javascript:void(0);" class="btn-logout">
+                        退出 <i class="entypo-logout right "></i>
+                    </a>
+                </li>
+
+
+
+                <!-- mobile only -->
+                <li class="visible-xs">
+
+                    <!-- open/close menu icon (do not remove if you want to enable menu on mobile devices) -->
+                    <div class="horizontal-mobile-menu visible-xs">
+                        <a href="#" class="with-animation">
+                            <!-- add class "with-animation" to support animation -->
+                            <i class="entypo-menu"></i>
+                        </a>
+                    </div>
+
+                </li>
+
+            </ul>
+            <ul class="navbar-nav" id="main-menu"></ul>
+
+        </div>
+    </header>
+
+    <iframe style="width:100%;height:102%;margin-top:-18px;border:none ;" src="../../pages/application/app.html"></iframe>
+</div>
+    <script src="../../pages/index/js/index.js"></script>
+</body>
+
+</html>

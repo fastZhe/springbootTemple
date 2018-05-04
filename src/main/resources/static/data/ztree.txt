@@ -1,0 +1,65 @@
+[
+    {id:1, pId:0,   name:"WebApp",  open:true},
+    {id:11, pId:1,  name:"assets",  open:true},
+    {id:12, pId:1,  name:"page",    open:true},
+    {id:13, pId:1,  name:"WEB-INF", open:true, isParent:true},
+    {id:14, pId:1,  name:"index.jsp"},
+    
+    {id:111,    pId:11, name:"theme"},
+    {id:112,    pId:11, name:"js"},
+    {id:113,    pId:11, name:"images", isParent:true},
+    {id:114,    pId:11, name:"css"},
+    
+    {id:121,    pId:12, name:"common"},
+    {id:122,    pId:12, name:"metadata"},
+    {id:123,    pId:12, name:"designer"},
+    {id:124,    pId:12, name:"monitor"},
+    {id:125,    pId:12, name:"warning"},
+    {id:126,    pId:12, name:"jobManager"},
+    {id:127,    pId:12, name:"logManager"},
+    {id:128,    pId:12, name:"sysManager"},
+    
+    {id:1111,   pId:111,    name:"theme.css"},
+    {id:1112,   pId:111,    name:"theme.js"},
+    {id:1113,   pId:111,    name:"theme.images"},
+    
+    {id:1121,   pId:112,    name:"util", isParent:true},
+    {id:1122,   pId:112,    name:"plugins", isParent:true},
+    
+    {id:1141,   pId:114,    name:"fonts", isParent:true},
+    {id:1142,   pId:114,    name:"test.css"},
+    
+    {id:1211,   pId:121,    name:"jsp"},
+    {id:1212,   pId:121,    name:"js"},
+    {id:1213,   pId:121,    name:"css"},
+    
+    {id:1221,   pId:122,    name:"jsp"},
+    {id:1222,   pId:122,    name:"js"},
+    {id:1223,   pId:122,    name:"css"},
+    
+    {id:1231,   pId:123,    name:"jsp"},
+    {id:1232,   pId:123,    name:"js"},
+    {id:1233,   pId:123,    name:"css"},
+    
+    {id:1241,   pId:124,    name:"jsp"},
+    {id:1242,   pId:124,    name:"js"},
+    {id:1243,   pId:124,    name:"css"},
+    
+    {id:1251,   pId:125,    name:"jsp"},
+    {id:1252,   pId:125,    name:"js"},
+    {id:1253,   pId:125,    name:"css"},
+    
+    {id:1261,   pId:126,    name:"jsp"},
+    {id:1262,   pId:126,    name:"js"},
+    {id:1263,   pId:126,    name:"css"},
+    
+    {id:1271,   pId:127,    name:"jsp"},
+    {id:1272,   pId:127,    name:"js"},
+    {id:1273,   pId:127,    name:"css"},
+    
+    {id:1281,   pId:128,    name:"jsp"},
+    {id:1282,   pId:128,    name:"js"},
+    {id:1283,   pId:128,    name:"css"},
+    
+    
+]

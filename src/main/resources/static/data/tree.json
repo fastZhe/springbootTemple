@@ -1,0 +1,71 @@
+[{
+	"name": "Dashboard",
+	"url": "index.html",
+	"icon": "entypo-bag",
+	"children": [{
+		"name": "Dashboard1",
+		"url": "index.html",
+		"icon": "entypo-gauge",
+		"children": []
+	}, {
+		"name": "Dashboard2",
+		"url": "index.html",
+		"icon": "entypo-pencil",
+		"children": []
+	}, {
+		"name": "Dashboard3",
+		"url": "index.html",
+		"icon": "entypo-gauge",
+		"children": [{
+			"name": "Dashboard112",
+			"url": "index.html",
+			"icon": "entypo-monitor",
+			"children": []
+		}, {
+			"name": "Dashboard5473",
+			"url": "index.html",
+			"icon": "entypo-newspaper",
+			"children": []
+		}]
+	}]
+}, {
+	"name": "Frontend",
+	"url": "index.html",
+	"icon": "entypo-bag",
+	"children": []
+}, {
+	"name": "UI Elementes",
+	"url": "index.html",
+	"icon": "entypo-bag",
+	"children": []
+}, {
+	"name": "Mailbox",
+	"url": "index.html",
+	"icon": "entypo-bag",
+	"children": []
+}, {
+	"name": "Forms",
+	"url": "index.html",
+	"icon": "entypo-bag",
+	"children": []
+}, {
+	"name": "Tables",
+	"url": "index.html",
+	"icon": "entypo-bag",
+	"children": []
+}, {
+	"name": "Extra",
+	"url": "index.html",
+	"icon": "entypo-bag",
+	"children": []
+}, {
+	"name": "Charts",
+	"url": "index.html",
+	"icon": "entypo-bag",
+	"children": []
+}, {
+	"name": "Levels",
+	"url": "index.html",
+	"icon": "entypo-bag",
+	"children": []
+}]
